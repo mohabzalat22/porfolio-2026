@@ -28,6 +28,9 @@ export default function Hero({ profile }) {
             <a href="#contact" className="btn ghost">
               Get in touch
             </a>
+            <a href="/Mohab_Ali_Gaber_CV.pdf" download className="btn ghost">
+              Download CV ↓
+            </a>
           </div>
         </div>
         <figure className="hero-photo reveal-load" style={{ "--d": "300ms" }}>

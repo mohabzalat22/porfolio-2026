@@ -31,6 +31,9 @@ export default function Contact({ profile }) {
             <a className="btn primary" href={`mailto:${profile.email}`}>
               Email me
             </a>
+            <a className="btn ghost" href="/Mohab_Ali_Gaber_CV.pdf" download>
+              Download CV ↓
+            </a>
             <button className="btn ghost" onClick={copy}>
               {copied ? "Copied" : profile.email}
             </button>
